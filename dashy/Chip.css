@@ -1,0 +1,1 @@
+button.svelte-1e75pim{background:var(--bg);transition:all .3s ease-in-out;border:1px solid var(--border-color)}.active.svelte-1e75pim{color:var(--text-inverse);background:var(--text)}button.svelte-1e75pim:hover{border:1px solid var(--text);color:var(--text-inverse);background:var(--text)}button.svelte-1e75pim:active{transform:scale(.95)}

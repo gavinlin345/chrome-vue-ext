@@ -1,0 +1,35 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>sipanel demo</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+  </head>
+  <body>
+
+    <div id="app">
+      {{ message }}
+    </div>
+    
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="node_modules/vue/dist/vue.runtime.global.prod.js" ></script>
+    <script  >
+      window.__VUE_PROD_HYDRATION_MISMATCH_DETAILS__ = false;
+      const { createApp, ref } = Vue;
+
+      const app = createApp({
+        setup() {
+          console.log(44);
+          const message = ref('Hello vue!');
+          return {
+            message
+          };
+        }
+      });
+
+      app.mount('#app');
+    </script> 
+  </body>
+</html>

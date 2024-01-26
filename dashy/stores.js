@@ -1,0 +1,1 @@
+import{ay as e,ah as t,av as r}from"./overlayscrollbars.js";const s={path:"user_data/{uid}/profiles/{currentProfile}/apps/wallpaper",currentProfile:t,uid:r},{create:a,createPersist:c,isFetched:i,start:l,stop:p}=e(s),n=a("collections",[]);export{n as collections,a as create,c as createPersist,l as start,p as stop,i as storesReady};

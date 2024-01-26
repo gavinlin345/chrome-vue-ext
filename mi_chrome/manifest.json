@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Stop Wasting Time",
+    "description": "Gooo",
+    "version": "1.0.1",
+    "background": {
+      "service_worker": "service-worker.js"
+    },
+
+
+    "permissions": ["tabs", "sidePanel", "contextMenus","notifications"],
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    },
+    "action": {
+        "default_icon": "32x32.png",
+        "default_popup": "popup.html",
+        "default_title": "Click to open panel"
+      },
+
+    "content_scripts": [
+      {
+        "js": ["content-script.js"],
+        "matches": ["https://www.google.com/*"]
+      }
+    ]
+  }

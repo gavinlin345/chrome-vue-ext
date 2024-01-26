@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Comic Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/Fonts/Comic Neue/ComicNeue-Light.ttf");
+}
+
+@font-face {
+  font-family: "Comic Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/Fonts/Comic Neue/ComicNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Comic Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/Fonts/Comic Neue/ComicNeue-Bold.ttf");
+}
